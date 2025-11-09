@@ -1,9 +1,12 @@
 <template>
   <div>
-    <h2 class="mb-4">
-      <i class="bi bi-speedometer2 me-2"></i>
-      Dashboard Principal
-    </h2>
+    <div class="d-flex align-items-center mb-4">
+      <img src="/img/imagen.png" alt="Logo" class="logo-dashboard me-3">
+      <h2 class="mb-0">
+        <i class="bi bi-speedometer2 me-2"></i>
+        Dashboard Principal
+      </h2>
+    </div>
 
     <div class="row g-4">
       <div class="col-md-4">
@@ -55,13 +58,13 @@
           <div class="card-header bg-white">
             <h5 class="mb-0">
               <i class="bi bi-info-circle me-2"></i>
-              Bienvenido a Fashion Store
+              Bienvenido a Trópico Rebelde
             </h5>
           </div>
           <div class="card-body">
             <p>
               Sistema de gestión de productos para tienda de ropa. 
-              Utiliza el menú lateral para navegar entre las diferentes secciones.
+              Oversize que rompe reglas. Utiliza el menú lateral para navegar entre las diferentes secciones.
             </p>
             <ul>
               <li><strong>Productos:</strong> Gestiona el inventario de ropa (Crear, Editar, Eliminar)</li>
@@ -94,3 +97,11 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.logo-dashboard {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+</style>

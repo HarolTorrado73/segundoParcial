@@ -2,8 +2,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
     <div class="container-fluid">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <i class="bi bi-shop-window fs-3 me-2"></i>
-        <span class="fw-bold">Fashion Store</span>
+        <img src="/img/imagen.png" alt="Logo Trópico Rebelde" class="logo-navbar me-2">
+        <span class="fw-bold">Trópico Rebelde</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -52,5 +52,11 @@ export default {
 <style scoped>
 .navbar-brand {
   font-size: 1.5rem;
+}
+
+.logo-navbar {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 </style>

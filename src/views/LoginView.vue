@@ -3,8 +3,8 @@
     <div class="login-card card shadow-lg">
       <div class="card-body p-5">
         <div class="text-center mb-4">
-          <i class="bi bi-shop-window fs-1 text-primary"></i>
-          <h2 class="mt-3 fw-bold">Fashion Store</h2>
+          <img src="/img/imagen.png" alt="Logo Trópico Rebelde" class="logo-login mb-3">
+          <h2 class="fw-bold">Trópico Rebelde</h2>
           <p class="text-muted">Inicia sesión para continuar</p>
         </div>
 
@@ -126,5 +126,11 @@ export default {
 
 .btn-primary:hover {
   background: linear-gradient(135deg, #5568d3 0%, #6a3f8f 100%);
+}
+
+.logo-login {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
 }
 </style>

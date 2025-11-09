@@ -2,7 +2,7 @@
   <footer class="footer bg-dark text-white text-center py-3 mt-auto">
     <div class="container">
       <p class="mb-0">
-        © 2025 Fashion Store - Tienda de Ropa | Todos los derechos reservados
+        © 2025 Trópico Rebelde - Oversize que rompe reglas | Todos los derechos reservados
       </p>
       <p class="mb-0 small">
         Desarrollado por: Harol Camilo Melo Torrado (192471) & Jhorman Esneider Ascanio Tarazona (192534)
